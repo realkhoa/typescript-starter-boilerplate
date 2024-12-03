@@ -1,0 +1,10 @@
+{
+  "watch": [],
+  "ext": "ts,js",
+  "ignore": ["*.test.ts", "./dist"],
+  "delay": "3000",
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "exec": "ts-node -r tsconfig-paths/register ./src/index.ts"
+}
